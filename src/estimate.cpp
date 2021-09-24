@@ -2,8 +2,7 @@
 #include <stdlib.h>
 
 float approx_pi(int num){
-    int in_circle = 0;
-    float x=0, y=0, dist=0;
+    float in_circle=0, x=0, y=0, dist=0;
     for(int i = 0; i<num; i++){
         x = ((double)rand() / RAND_MAX);
         y = ((double)rand() / RAND_MAX);
